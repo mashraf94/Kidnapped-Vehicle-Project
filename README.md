@@ -54,7 +54,7 @@ OUTPUT: values provided by the c++ program to the simulator
 
 // best particle values used for calculating the error evaluation
 
-["best_particle_x"]
+[best_particle_x"]
 
 ["best_particle_y"]
 
@@ -83,6 +83,24 @@ root
     |   particle_filter.cpp
     |   particle_filter.h
 ```
+
+
+### The following is a screenshot from running the simulator: 
+- The green lines represent the ground truth.
+- The blue lines represent the particle filter's best estimation.
+
+<p align="center">
+<img align="center" src="./data/Screen Shot 2017-12-06 at 12.13.35 AM.png" alt="alt text">
+</p>
+
+### The following is after 2,443 time steps at the end of this project at errors:
+X ~ 0.120
+Y ~ 0.109
+Yaw ~ 0.004
+
+<p align="center">
+<img align="center" src="./data/Screen Shot 2017-12-06 at 12.14.34 AM.png" alt="alt text">
+</p>
 
 ---
 
