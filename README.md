@@ -18,7 +18,7 @@
 ## Running the Code
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
 
-These scripts have been included to streamline this process, these can be leveraged by executing the following in the top directory of the project:
+Execute the following in the top directory of the project to run the particle filter:
 
 1. ./clean.sh
 2. ./build.sh
@@ -61,8 +61,7 @@ OUTPUT: values provided by the c++ program to the simulator
 ["best_particle_theta"] 
 
 
-# Implementing the Particle Filter
-The directory structure of this repository is as follows:
+## The directory structure of this repository is as follows:
 
 ```
 root
